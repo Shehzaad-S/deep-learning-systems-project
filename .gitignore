@@ -30,3 +30,8 @@ dist/
 
 # === Testing & Coverage ===
 .pytest_cache/
+
+# PyTorch model files
+*.pt
+*.pth
+*.ckpt
