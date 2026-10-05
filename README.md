@@ -100,6 +100,8 @@ During exploratory analysis, only a subset of the GPT-2 vocabulary was utilized 
 
 ##### How to Run the Project
 
+**Model Checkpoints are not saved in Github or Git because of size constraints**
+
 1. Clone the Repository
 
 ```Shell
