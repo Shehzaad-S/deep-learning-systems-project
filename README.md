@@ -1,12 +1,12 @@
 ### Deep Learning Systems Project
 
-##### Project Description
+#### Project Description
 
 This project implements a GPT-style decoder-only Transformer from first principles and applies it to conversational language modeling using the DailyDialog dataset. Using Python, PyTorch, NumPy, Matplotlib, and the Hugging Face Transformers library, the project demonstrates an end-to-end deep learning workflow including dataset exploration, tokenization, Transformer implementation, model training, architectural experimentation, and evaluation.
 
 The primary objective of the project is to train a language model capable of predicting the next token in a conversation given all preceding context. A baseline Transformer architecture was developed and evaluated before conducting controlled experiments investigating the effects of increased Transformer depth and embedding dimensionality on model performance, generalization, and parameter efficiency.
 
-##### What I Built
+#### What I Built
 
 - Loaded, validated, and explored the DailyDialog conversational dataset.
 - Performed exploratory analysis of dialogue lengths, vocabulary utilization, and conversational structure.
@@ -22,7 +22,7 @@ The primary objective of the project is to train a language model capable of pre
 - Analyzed architectural trade-offs involving model capacity, parameter efficiency, and generalization performance.
 - Summarized findings, limitations, ethical considerations, and future enhancement opportunities.
 
-##### Dataset
+#### Dataset
 
 **DailyDialog**
 
@@ -52,7 +52,7 @@ The DailyDialog corpus contains approximately 11,118 manually curated multi-turn
 
 The dataset provides predefined training, validation, and testing splits, making it well suited for language modeling and controlled experimental evaluation.
 
-##### Notebook Execution Notes
+#### Notebook Execution Notes
 
 This project was developed locally and trained using Google Colab GPU resources.
 
@@ -67,7 +67,7 @@ These commands are not required when running the notebook locally and may be saf
 
 Transformer training experiments were executed using GPU-enabled Colab runtimes due to the computational requirements of training decoder-only language models. All results, analysis, experiments, and discussion are included within the notebook and accompanying report, so reviewers are not required to retrain the models to evaluate the project.
 
-##### Bias Awareness and Limitations
+#### Bias Awareness and Limitations
 
 As with all language modeling projects, the results should be interpreted with appropriate caution.
 
@@ -79,7 +79,7 @@ Generated responses may appear fluent while still containing factual inaccuracie
 Computational constraints influenced model size, context length, and training duration.
 Evaluation was primarily based on loss metrics and qualitative generation examples rather than large-scale human evaluation studies.
 
-##### Future Extensions
+#### Future Extensions
 
 Several opportunities exist to extend this project and further improve conversational language modeling performance.
 
@@ -98,7 +98,7 @@ An interesting extension would be the development of a custom tokenizer specific
 
 During exploratory analysis, only a subset of the GPT-2 vocabulary was utilized by the dataset, suggesting that a smaller domain-specific vocabulary may improve token efficiency while reducing model complexity.
 
-##### How to Run the Project
+#### How to Run the Project
 
 **Model Checkpoints are not saved in Github or Git because of size constraints**
 
@@ -185,7 +185,7 @@ Typical workflow:
 
 Reviewers may execute the notebook locally without requiring Colab-specific configuration.
 
-##### Reproducibility
+#### Reproducibility
 
 Generate the requirements file:
 
