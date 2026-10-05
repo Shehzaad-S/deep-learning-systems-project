@@ -26,7 +26,7 @@ The primary objective of the project is to train a language model capable of pre
 
 **DailyDialog**
 
-Source: (Hugging Face)[https://huggingface.co/datasets/roskoN/dailydialog]
+Source: [Hugging Face](https://huggingface.co/datasets/roskoN/dailydialog)
 
 Paper: DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset (Li et al., 2017)
 
